@@ -10,7 +10,7 @@ Use these checks with the SQL files. The dataset is simulated, so the results ar
 | Fraud alert connection | Run the first query in `03_transactions_and_fraud_alerts.sql`. | Each alert is shown with the transaction it references and the customer who owns the account. |
 | Transactions without an alert | Run the second query in `03_transactions_and_fraud_alerts.sql`. | Rows show transactions for which no matching fraud alert exists. |
 | Open alert review | Run the last query in `03_transactions_and_fraud_alerts.sql`. | Only open or investigating alerts appear; the highest risk scores are listed first. |
-| Duplicate transaction identifier | Run the duplicate check in `04_more_qa_checks.sql`. | No rows should be returned because `transaction_id` is a primary key. |
+| Duplicate transaction identifier | Run the duplicate check in `04_more_quality_checks.sql`. | No rows should be returned because `transaction_id` is a primary key. |
 
 ## Example bug report template
 
