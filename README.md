@@ -46,7 +46,7 @@ erDiagram
 - `sql/01_transaction_outcomes.sql` counts transactions by status and shows examples of successful, non-successful, and failed transactions.
 - `sql/02_customers_with_unsuccessful_transactions.sql` shows customers and accounts connected to non-successful transactions.
 - `sql/03_transactions_and_fraud_alerts.sql` shows transactions with fraud alerts, transactions without alerts, and open or investigating alerts.
-- `sql/04_more_quality_checks.sql` contains additional checks for transaction channels, amounts, missing alerts, and repeated identifiers.
+- `sql/04_more_quality_checks.sql` contains checks for transaction channels, high-value amounts, repeated transaction identifiers, and open fraud alerts.
 
 ## Import the dataset with MySQL Workbench
 
