@@ -47,6 +47,8 @@ erDiagram
 - `sql/02_customers_with_unsuccessful_transactions.sql` shows customers and accounts connected to non-successful transactions.
 - `sql/03_transactions_and_fraud_alerts.sql` shows transactions with fraud alerts, transactions without alerts, and open or investigating alerts.
 - `sql/04_more_quality_checks.sql` contains checks for transaction channels, high-value amounts, repeated transaction identifiers, and open fraud alerts.
+- `docs/manual_test_cases.md` contains practice checks and expected results for the SQL queries.
+- `docs/bug_report_template.md` is a template for recording a test finding.
 
 ## Import the dataset with MySQL Workbench
 
