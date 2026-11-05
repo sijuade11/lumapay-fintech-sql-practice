@@ -20,5 +20,3 @@ WHERE transactions.status <> 'successful'
 ORDER BY transactions.created_at DESC
 LIMIT 50;
 
--- Change the WHERE line to this if you only want failed transactions:
--- WHERE transactions.status = 'failed'
